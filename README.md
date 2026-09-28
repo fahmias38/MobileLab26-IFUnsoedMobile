@@ -21,3 +21,15 @@ Di pertemuan 2, dilakukan konfigurasi seperti pembuatan skema warna, modifikasi 
 </p>
 
 Di pertemuan 3, diterapkan konsep Dynamic Lists menggunakan Lazy Layouts pada Jetpack Compose. Dibuat data class `Category` dan `Product` di package `data.model`, serta `DummyData` (singleton object) berisi 3 kategori dan 15 produk lokal khas Purbalingga. Hasilnya adalah layar `DaftarProdukScreen` yang menampilkan TopAppBar hijau "Daftar Produk UMKM" dengan ikon keranjang belanja, `LazyRow` untuk filter kategori (Makanan, Minuman, Kerajinan) yang berubah warna saat dipilih, serta `LazyVerticalGrid` 2 kolom yang menampilkan kartu produk secara efisien. Klik pada kartu produk menampilkan Toast konfirmasi. Dibuat pula `HomeActivity` sebagai Launcher Activity baru, menggantikan `MainActivity` sebagai pintu masuk utama aplikasi. Layar mendukung Light & Dark theme.
+
+## Display Pertemuan 4
+
+<p>
+  <img src="Hasil%20Praktikum/pert4-1.png" width="200"/>
+  <img src="Hasil%20Praktikum/pert4-2.png" width="200"/>
+  <img src="Hasil%20Praktikum/pert4-3.png" width="200"/>
+  <img src="Hasil%20Praktikum/pert4-4.png" width="200"/>
+</p>
+
+Di pertemuan 4, diterapkan konsep Recomposition, State Hoisting, dan proses Asinkronus Coroutines pada Jetpack Compose. Dibuat pemisahan Stateful dan Stateless Composable pada `DaftarProdukScreen`, `DetailProductScreen`, dan `HubungiKamiScreen`. Fitur yang ditambahkan meliputi Search Bar pencarian produk dengan indikator loading (`CircularProgressIndicator`), layar `DetailProductScreen` dengan pemilih kuantitas jumlah beli, form `HubungiKamiScreen` interaktif dengan Dropdown, PhotoPicker, dan Checkbox validasi, serta penambahan rute navigasi `NavHost` pada `HomeActivity`.
+
