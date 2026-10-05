@@ -33,3 +33,11 @@ Di pertemuan 3, diterapkan konsep Dynamic Lists menggunakan Lazy Layouts pada Je
 
 Di pertemuan 4, diterapkan konsep Recomposition, State Hoisting, dan proses Asinkronus Coroutines pada Jetpack Compose. Dibuat pemisahan Stateful dan Stateless Composable pada `DaftarProdukScreen`, `DetailProductScreen`, dan `HubungiKamiScreen`. Fitur yang ditambahkan meliputi Search Bar pencarian produk dengan indikator loading (`CircularProgressIndicator`), layar `DetailProductScreen` dengan pemilih kuantitas jumlah beli, form `HubungiKamiScreen` interaktif dengan Dropdown, PhotoPicker, dan Checkbox validasi, serta penambahan rute navigasi `NavHost` pada `HomeActivity`.
 
+## Display Pertemuan 5
+
+<p>
+  <img src="Hasil%20Praktikum/pert5-1.png" width="200"/>
+  <img src="Hasil%20Praktikum/pert5-2.png" width="200"/>
+</p>
+
+Di pertemuan 5, diterapkan konsep Networking & Architecture menggunakan pola MVVM (Model-View-ViewModel). Data aplikasi tidak lagi menggunakan dummy data, melainkan diambil secara dinamis dari API berformat JSON menggunakan pustaka Retrofit dan Gson Converter. Pengelolaan status antarmuka diimplementasikan menggunakan StateFlow dan sealed interface ProductUiState (Loading, Success, Error) di dalam ProductViewModel. Layar DaftarProdukScreen dan DetailProductScreen diintegrasikan dengan ViewModel tersebut untuk merender UI berdasarkan status pengambilan data.
