@@ -1,17 +1,23 @@
-# modul2_praktikum
+# Output Aplikasi
 
-A new Flutter project.
+## Identitas
 
-## Getting Started
+| | |
+|---|---|
+| **Nama** | Fahmi |
+| **NIM** | _isi NIM_ |
+| **Shift Praktikum** | _isi shift_ |
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Modul 2
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+<p align="center">
+  <img src="screenshots/modul2/helloworld.png" width="160" alt="Hello World">
+  <img src="screenshots/modul2/column.png" width="160" alt="Widget Column">
+  <img src="screenshots/modul2/formproduk.png" width="160" alt="Form Produk">
+  <img src="screenshots/modul2/detailproduk.png" width="160" alt="Detail Produk">
+  <img src="screenshots/modul2/listproduk.png" width="160" alt="List Produk">
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pada modul ini dipelajari dasar pembuatan antarmuka Flutter menggunakan widget, mulai dari layout, form input, navigasi antarhalaman, hingga ListView.
