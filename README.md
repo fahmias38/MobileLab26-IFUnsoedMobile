@@ -4,9 +4,9 @@
 
 | | |
 |---|---|
-| **Nama** | Fahmi |
-| **NIM** | _isi NIM_ |
-| **Shift Praktikum** | _isi shift_ |
+| **Nama** | Fahmi Arif Setiawan |
+| **NIM** | H1D024014 |
+| **Shift Praktikum** | I |
 
 ---
 
